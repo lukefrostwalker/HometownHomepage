@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+    background-image: url('images/n3.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#hero-title {
+    background-color: #1D3557;
+    padding: 5px 12px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+#hero-desc {
+    background-color: #457B9D;
+    padding: 8px 28px;
+    max-width: 400px;
+    margin-top: 11px;
+    border-radius: 10px;
+    font-size: 18.72px
+}
+#activities-section {
+    color: #1D3557;
+}
+#activity-header {
+    font-size: 24px;
+    margin: 39px 0 54px 0;
+}
+#activity-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 34px;
+}
+.activity {
+    width: 95%;
+    padding: 0 2%;
+}
+
+.activity img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.activity-title {
+    margin: 22px 0 0 0;
+}
+.activity-desc {
+    margin-top: 17px;
+}
+
+.card {
+    display: flex;
+    max-width: 420px;
+    background-color: #A8DADC;
+    padding: 23px 13px;
+    margin: 88px auto 50px;
+    color: #1D3557;
+    border-radius: 10px;
+    box-shadow: 0 6px #1D3557;
+}
+.card img {
+    width: 220px;
+    border-radius: 10px;
+    margin-right: 10px
+}
+.card-title {
+    font-size: 24px;
+}
+.card-desc {
+    font-style: italic;
+}
+
